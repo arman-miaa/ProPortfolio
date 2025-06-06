@@ -1,5 +1,5 @@
 import { Calendar, MapPin, Clock } from "lucide-react";
-import Slide from "./slide";
+import Slide from "./Slide";
 
 const Banner = () => {
   return (
