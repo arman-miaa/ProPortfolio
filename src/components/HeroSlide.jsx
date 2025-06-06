@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
-const Slide = () => {
+const HeroSlide = () => {
   return (
     <div className="w-full max-w-md">
       <Swiper
@@ -67,4 +67,4 @@ const Slide = () => {
   );
 };
 
-export default Slide;
+export default HeroSlide;

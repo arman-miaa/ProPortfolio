@@ -1,5 +1,6 @@
 import { Calendar, MapPin, Clock } from "lucide-react";
-import Slide from "./Slide";
+import HeroSlide from "./HeroSlide";
+
 
 const Banner = () => {
   return (
@@ -107,7 +108,8 @@ const Banner = () => {
 
           {/* Right Side - Portfolio Slider */}
           <div className="flex justify-center lg:justify-end">
-            <Slide />
+            {/* <Slide /> */}
+            <HeroSlide/>
           </div>
         </div>
 
